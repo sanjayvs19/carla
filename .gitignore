@@ -1,0 +1,34 @@
+# Python virtual environment
+carla_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# CARLA binaries and large engine files
+CarlaUE4/
+Engine/
+CarlaUE4.exe
+
+# Co-Simulation binaries
+Co-Simulation/
+
+# HDMaps (large binary files)
+HDMaps/
+
+# PythonAPI compiled/egg files
+PythonAPI/**/*.egg
+PythonAPI/**/*.so
+PythonAPI/**/*.pyd
+PythonAPI/**/dist/
+PythonAPI/**/build/
+PythonAPI/**/__pycache__/
+
+# Misc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
